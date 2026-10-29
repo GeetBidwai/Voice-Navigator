@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Voice Nav</string>
+    <string name="prompt_initial">Where would you like to go?</string>
+    <string name="prompt_listening">Listening…</string>
+    <string name="prompt_you_said_prefix">You said: </string>
+    <string name="btn_ask">Ask</string>
+    <string name="btn_listening">Listening</string>
+    <string name="action_settings">Settings</string>
+    <string name="ors_api_key_label">OpenRouteService API Key</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="search_placeholder">Where do you want to go?</string>
+    <string name="stop_navigation">Stop Navigation</string>
+    <string name="btn_repeat">Repeat</string>
+    <string name="btn_how_far">How Far?</string>
+</resources>

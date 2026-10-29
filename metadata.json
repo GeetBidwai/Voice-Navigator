@@ -1,0 +1,6 @@
+{
+  "name": "Voice Nav",
+  "description": "Voice-controlled, high-contrast navigation assistant tailored for motorcycle riders in India",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

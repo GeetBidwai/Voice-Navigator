@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Voice Nav",
+    "slug": "voice-nav",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/src/main/res/drawable/voice_nav_icon_1792833695000.jpg",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#12161B"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.voicenav.rider",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Voice Nav requires microphone access to listen to your hands-free navigation commands while riding.",
+        "NSSpeechRecognitionUsageDescription": "Voice Nav uses speech recognition to parse destination and navigation instructions.",
+        "NSLocationWhenInUseUsageDescription": "Voice Nav needs GPS location to calculate turns and route progress."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/src/main/res/drawable/voice_nav_icon_1792833695000.jpg",
+        "backgroundColor": "#12161B"
+      },
+      "package": "com.aistudio.voicenav.rnvyq",
+      "permissions": [
+        "RECORD_AUDIO",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+# Node & Expo
+node_modules/
+.expo/
+dist/
+npm-debug.*
+*.log
+
+# Android & Gradle
+*.iml
+.gradle/
+.kotlin/
+/local.properties
+local.properties
+.idea/
+.DS_Store
+/build/
+app/build/
+/captures
+.externalNativeBuild
+.cxx
+
+# Secrets, Keys, and Local Environment
+.env
+.env.local
+*.jks
+debug.keystore
+my-upload-key.jks
